@@ -28,7 +28,7 @@ projeto/
 └── requirements.txt
 ```
 
-### Membros da Squad:
+### Membros da Squad
 
 - Ana Paula Martins Braga | [apmbraga](https://github.com/apmbraga)
 - Angela Filomena | [anbaptista](https://github.com/anbaptista/)
@@ -41,7 +41,7 @@ projeto/
 - Tamar Bender
 - Yohanna Oliveira Cavalcanti
 
-### Resolução dos Desafios:
+### Resolução dos Desafios
 
 A resolução dos desafios foi realizada através de comunicação no Discord, reuniões no Google Meet e divisão de tarefas entre os membros da squad.
 
@@ -50,7 +50,7 @@ A resolução dos desafios foi realizada através de comunicação no Discord, r
 
 Valorizamos o trabalho em equipe e a criação de um ambiente cooperativo para garantir um aprendizado eficaz e uma experiência gratificante.
 
-### Como excutar:
+### Como excutar
 
 ### Clonar o repositório
 
@@ -68,16 +68,18 @@ python -m venv .venv
 
 ### Ative o ambiente virtual
 
-```
-.venv\Scripts\activate
+```'
+.venv\Scripts\activate'
 ```
 
 ### Instale as dependências dentro do requirements.txt
+
 ```
 pip install -r requirements.txt
 ```
 
 ### Rode o Flask :D
+
 ```
-flask --app app run
+flask --app main:app run
 ```
